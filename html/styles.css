@@ -1,0 +1,158 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+.todo{
+}
+header{
+    display: flex;
+    background-color: black;
+    flex-direction:column;
+}
+
+.cont{
+    text-align: center;
+}
+
+.logo img {
+    width: 300px; height: 300px;
+}
+.redessociales{
+    display:flex;
+    justify-content: flex-end;
+    border: 0px;
+    
+}
+.redessociales img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.titulo {
+    color: antiquewhite;
+    height: 100%;
+    border-radius: 10px;
+    background: #03302a;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li a {
+    display:block;
+    color:antiquewhite;
+    padding: 15px 50px;
+    text-decoration: none;
+    
+}    
+li a:hover {
+    background: #25DEAD;
+    color: black;
+}
+
+.banner{
+    overflow:hidden;
+    background-color:darkcyan;
+}
+
+
+
+
+
+
+
+
+
+
+section {
+    border: solid antiquewhite 2px;
+    color: antiquewhite;
+}
+.introduccion{
+    float:none;
+}
+h2{
+    padding:10px;
+    border-radius: 10px
+}
+
+.contenedor3divs {
+    background: url("fotos/orange-starfish-1254319.jpg");
+    border-radius: 10px;
+}
+aside{
+    background: url("fotos/photo-of-jellyfish-2690765.jpg");
+    overflow:hidden;
+}
+.buscar{
+    padding:10px;
+}
+.superficie, .profundidades{
+    overflow: hidden;
+}
+p{
+    margin: 20px;
+}
+.delfin{
+    width: 200px;
+    height:150px;
+    float:right;
+    margin: 10px;
+}
+.tiburon1{
+    width: 200px;
+    height: 150px;
+    float:right;
+    margin:10px;
+}
+.pajaro{
+    width: 200px;
+    height: 150px;
+    clear:right;
+    margin:10px;
+}
+.basket{
+    width: 200px;
+    height: 150px;
+    float:right;
+    margin:10px;
+}
+.calamar{
+    width: 200px;
+    height: 150px;
+    float: right;
+}
+.pezluz{
+    width: 200px;
+    height: 150px;
+    clear: left;
+}
+b{
+    margin: 20px;
+}
+div{
+    border-bottom: solid #25DEAD 2px;
+    border-radius: 10px;
+}
+
+.divs4{
+    float:left;
+    width: 80%    
+}
+aside{
+    float:right;
+    width: 20%;
+    border-radius: 10px;
+}
+footer{
+    border: solid white 2px;
+    clear:both;
+    border-radius: 10px;
+}
